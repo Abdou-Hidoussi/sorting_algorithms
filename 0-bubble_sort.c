@@ -9,15 +9,6 @@ void bubble_sort(int *array, size_t size)
 	int tmp;
 	size_t i;
 
-	if (array == NULL)
-	{
-		return;
-	}
-	if (size == 1)
-	{
-		print_array(array, size);
-		return;
-	}
 	while (is_sorted(array, size))
 	{
 		for (i = 0; i < size - 1; i++)
