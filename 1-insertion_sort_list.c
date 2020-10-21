@@ -6,8 +6,13 @@
  */
 void insertion_sort_list(listint_t **list)
 {
-	listint_t *l = *list;
+	listint_t *l;
 
+	if (list == NULL)
+	{
+		return;
+	}
+	l = *list;
 	while (l->next != NULL)
 	{
 		if (l->n < l->next->n)
