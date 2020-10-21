@@ -23,5 +23,10 @@ void selection_sort(int *array, size_t size);
 void integer_swap(int *fst, int *snd);
 void insertion_sort_list(listint_t **list);
 
+void quick_sort(int *array, size_t size);
+void quick(int *array, int l, int r, size_t size);
+int sort(int *array, int l, int r, size_t size);
+void sw(int *array, int r, int l, size_t size);
+
 
 #endif
